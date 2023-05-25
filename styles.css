@@ -25,6 +25,11 @@ body {
   align-items: center;
 }
 
+footer {
+  color: gray;
+  align-items: right;
+}
+
 /* align-items: center;
    text-align: center;
    justify-content: center;
