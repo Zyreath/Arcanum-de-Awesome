@@ -24,7 +24,7 @@ section {
 
 footer {
   color: gray;
-  text-items: right;
+  text-align: right;
 }
 
 /* align-items: center;
