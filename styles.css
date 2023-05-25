@@ -21,13 +21,9 @@ section {
   text-align: center;
 }
 
-body {
-  align-items: center;
-}
-
 footer {
   color: gray;
-  align-items: right;
+  text-items: right;
 }
 
 /* align-items: center;
