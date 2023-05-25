@@ -4,12 +4,10 @@ nav {
 }
 
 h1 {
-  font-size: 24px;
   text-align: center;
 }
 
 h2 {
-  font-size: 18px;
   text-align: center;
 }
 
@@ -24,7 +22,7 @@ section {
 
 footer {
   color: gray;
-  text-align: center;
+  text-align: right;
 }
 
 /* align-items: center;
