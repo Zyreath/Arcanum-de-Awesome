@@ -29,7 +29,10 @@ section {
 
 footer {
   color: gray;
-  text-align: right;
+  text-align: center;
+  width: 1000px;
+  height: auto;
+  float: center;
 }
 
 /* align-items: center;
