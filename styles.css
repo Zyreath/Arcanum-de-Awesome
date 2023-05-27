@@ -1,13 +1,6 @@
 nav {
   color: blue;
   text-align: center;
-  width: 100%;
-  height: auto;
-  float: center;
-  background-color: lightgray;
-  border-top: 1px solid gray;
-  padding-left: 1%;
-  padding-bottom: 1%;
 }
 
 h1 {
