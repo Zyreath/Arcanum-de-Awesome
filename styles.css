@@ -33,6 +33,10 @@ footer {
   width: 1000px;
   height: auto;
   float: center;
+  background-color: lightgray;
+  border-top: 1px solid gray;
+  padding-left: 1%;
+  padding-bottom: 1%;
 }
 
 /* align-items: center;
