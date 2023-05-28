@@ -13,7 +13,7 @@ document.getElementById("ex1").innerHTML = ans;
 var arrayOutputElement = document.getElementById("ex2");
 
 var l = [];
-for(var i = 0; i < 101; i++){
+for(var i = 1; i < 101; i++){
   if (i%3 == 0 && i%5 == 0) {
    l.push("FizzBuzz");
   } else if (i%3 == 0) {
