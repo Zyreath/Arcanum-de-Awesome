@@ -8,13 +8,13 @@ for (var i = 0; i < 7; i++) {
 
 document.getElementById("ex1").innerHTML = ans;
 
+
+
+var arrayOutputElement = document.getElementById("ex2");
+
 var l = [];
 for(var i = 0; i < 30; i++){
    l.push(i);
 }
 
-document.getElementById("ex2").innerHTML = l;
-
-var arrayOutputElement = document.getElementById("arrayOutput");
-
-arrayOutputElement.textContent = myArray.join(", ");
+arrayOutputElement.textContent = l.join(", ");
