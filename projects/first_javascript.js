@@ -14,3 +14,7 @@ for(var i = 0; i < 30; i++){
 }
 
 document.getElementById("ex2").innerHTML = l;
+
+var arrayOutputElement = document.getElementById("arrayOutput");
+
+arrayOutputElement.textContent = myArray.join(", ");
