@@ -14,7 +14,9 @@ var arrayOutputElement = document.getElementById("ex2");
 
 var l = [];
 for(var i = 0; i < 101; i++){
-  if (i%3 == 0) {
+  if (i%3 == 0 && i%5 == 0) {
+   l.push("FizzBuzz");
+  } else if (i%3 == 0) {
    l.push("Fizz");
   } else if (i%5 == 0) {
    l.push("Buzz");
