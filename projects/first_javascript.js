@@ -16,8 +16,9 @@ var l = [];
 for(var i = 0; i < 101; i++){
   if (i%3 == 0) {
    l.push("Fizz");
-  }
+  } else {
    l.push(i);
+  }
 }
 
 arrayOutputElement.textContent = l.join(", ");
