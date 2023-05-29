@@ -1,0 +1,45 @@
+nav {
+  color: blue;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+#wrapper {
+    width: 100%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3 {
+  color: green;
+  text-align: center;
+}
+
+section {
+  text-align: center;
+}
+
+footer {
+  color: gray;
+  text-align: center;
+  width: 100%;
+  height: auto;
+  float: center;
+  background-color: lightgray;
+  border-top: 1px solid gray;
+  padding-left: 1%;
+  padding-bottom: 1%;
+}
+
+/* align-items: center;
+   text-align: center;
+   justify-content: center;
+*/
