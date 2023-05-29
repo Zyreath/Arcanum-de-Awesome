@@ -35,7 +35,7 @@ for (var i = 0; i <= 64; i++) {
     if (i % 2 == 0) {
         pattern += '#'
     } else {
-      pattern += ' ';
+      pattern += 'X';
   }
   if (pattern.length % 8 == 0) {
     pattern += "<br>";
