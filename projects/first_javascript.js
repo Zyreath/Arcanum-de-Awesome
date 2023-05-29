@@ -44,3 +44,4 @@ for (var i = 0; i < 65; i++) {
 }
 
 document.getElementById("ex3").innerHTML = pattern;
+console.log(pattern);
