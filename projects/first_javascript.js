@@ -41,7 +41,9 @@ for (var i = 0; i < 65; i++) {
   if (pattern.length % 8 == 0) {
     pattern += '\n';
   } 
+  console.log(i)
 }
 
 document.getElementById("ex3").innerHTML = pattern;
 console.log(pattern);
+console.log(counter)
