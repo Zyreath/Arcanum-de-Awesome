@@ -31,7 +31,7 @@ arrayOutputElement.textContent = l.join(", ");
 // Example 3
 
 var pattern = '';
-for (var i = 0; i < 65; i++) {
+for (var i = 0; i <= 64; i++) {
     if (i % 2 == 0) {
         pattern += '#'
     } else {
