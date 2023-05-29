@@ -1,3 +1,5 @@
+// Example 1
+
 var ans = "";
 var s = "#";
 
@@ -8,7 +10,7 @@ for (var i = 0; i < 7; i++) {
 
 document.getElementById("ex1").innerHTML = ans;
 
-
+// Example 2
 
 var arrayOutputElement = document.getElementById("ex2");
 
@@ -25,3 +27,20 @@ for(var i = 1; i < 101; i++){
    }
 }
 arrayOutputElement.textContent = l.join(", ");
+
+// Example 3
+
+var pattern = '';
+var counter = 1;
+for (var i = 0; i < 65; i++) {
+    if (counter % 2 == 0) {
+        pattern += '#'
+    } else {
+      pattern += ' ';
+  }
+  if (pattern.length % 8 == 0) {
+    pattern += '\n';
+  } 
+}
+
+document.getElementById("ex3").innerHTML = pattern;
