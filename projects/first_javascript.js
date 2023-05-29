@@ -31,14 +31,14 @@ arrayOutputElement.textContent = l.join(", ");
 // Example 3
 
 var pattern = '';
-for (var i = 1; i < 65; i++) {
+for (var i = 0; i < 65; i++) {
     if (i % 2 == 0) {
         pattern += '#'
     } else {
       pattern += ' ';
   }
   if (pattern.length % 8 == 0) {
-    pattern += '\n';
+    pattern += "<br>";
   } 
   console.log(i)
 }
