@@ -33,7 +33,7 @@ arrayOutputElement.textContent = l.join(", ");
 var pattern = '';
 for (var i = 0; i <= 64; i++) {
     if (i % 2 == 0) {
-        pattern += '#'
+        pattern += '#';
     } else {
       pattern += 'X';
   }
