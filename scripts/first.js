@@ -31,15 +31,18 @@ arrayOutputElement.textContent = l.join(", ");
 // Example 3
 
 var pattern = '';
-for (var i = 0; i <= 64; i++) {
+var counter = 1;
+for (var i = 1; i <= 64; i++) {
     if (i % 2 == 0) {
         pattern += '#';
     } else {
       pattern += 'X';
   }
-  if (pattern.length % 8 == 0) {
+  if (counter % 8 == 0) {
     pattern += "<br>";
+    counter = 0;
   } 
+  counter += 1;
 }
 
 document.getElementById("ex3").innerHTML = pattern;
