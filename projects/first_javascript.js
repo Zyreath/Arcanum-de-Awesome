@@ -31,9 +31,8 @@ arrayOutputElement.textContent = l.join(", ");
 // Example 3
 
 var pattern = '';
-var counter = 1;
-for (var i = 0; i < 65; i++) {
-    if (counter % 2 == 0) {
+for (var i = 1; i < 65; i++) {
+    if (i % 2 == 0) {
         pattern += '#'
     } else {
       pattern += ' ';
@@ -46,4 +45,4 @@ for (var i = 0; i < 65; i++) {
 
 document.getElementById("ex3").innerHTML = pattern;
 console.log(pattern);
-console.log(counter)
+console.log(i)
