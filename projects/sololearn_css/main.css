@@ -74,6 +74,7 @@ footer a: hover {
 	text-decoration: underline;
 }
 
+
 input[type='text'], input[type='email'] {
   border: 1px solid #2F5A78;
   width: 150px;
@@ -99,3 +100,22 @@ input[type='submit'] {
   color: white;
   margin-bottom: 7px;
 } 
+
+body {
+  font-family: Arial;
+  margin-top: 100px;
+}
+
+header {
+  text-align: center;
+  background-color: #eeeeee;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  position: fixed;
+  top: 0;
+  left 0;
+  width: 100%;
+} 
+.summary img {
+  float: right;
+}
