@@ -40,7 +40,8 @@ section {
 }
 
 #photos{
-  justify-cont
+  align-items: center;
+  justify-content:center;
 }
 
 footer {
