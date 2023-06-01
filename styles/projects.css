@@ -54,7 +54,11 @@ footer {
 }
 
 .photo {
-
+   width: 35%;
+   padding: 5px;
+   margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
 }
 
 /* align-items: center;
