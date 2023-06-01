@@ -39,11 +39,6 @@ section {
   text-align: center;
 }
 
-#photos{
-  align-items: center;
-  justify-content:center;
-}
-
 footer {
   color: gray;
   text-align: center;
@@ -66,6 +61,9 @@ footer {
 .photos {
   display: grid;
   place-items: center;
+  align-items: center;
+  justify-content:center;
+}
 
 .photo {
    width: 25%;
