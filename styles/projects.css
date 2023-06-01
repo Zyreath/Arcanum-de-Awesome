@@ -63,6 +63,10 @@ footer {
   width: 50%;
 }
 
+.photos {
+  display: grid;
+  place-items: center;
+
 .photo {
    width: 25%;
    padding: 5px;
