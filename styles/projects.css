@@ -60,9 +60,7 @@ footer {
 
 .photos {
   display: inline-block;
-  place-items: center;
   align-items: center;
-  justify-content:center;
 }
 
 .photo {
