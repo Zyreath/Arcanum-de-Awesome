@@ -59,7 +59,7 @@ footer {
 }
 
 .photos {
-  display: inline-block;
+  display: grid;
 }
 
 .photo {
