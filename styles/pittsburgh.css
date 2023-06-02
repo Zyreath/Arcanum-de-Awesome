@@ -58,6 +58,10 @@ footer {
   width: 50%;
 }
 
+#van {
+  width: 30%;
+}
+
 /* align-items: center;
    text-align: center;
    justify-content: center;
