@@ -6,42 +6,12 @@ header {
   float: center;
   background-color: lightgray;
   border-top: 1px solid gray;
-  /*padding-left: 1%;*/
+  padding-left: 1%;
   padding-bottom: 1%;
 }
 
 nav {
   color: blue;
-  text-align: center;
-}
-
-body {
-  background-color: cyan;
-}
-
-h1 {
-  color: purple;
-  text-align: center;
-}
-
-h2 {
-  color: red;
-  text-align: center;
-}
-
-#wrapper {
-    width: 100%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-h3 {
-  color: green;
-  text-align: center;
-}
-
-section {
   text-align: center;
 }
 
@@ -53,15 +23,8 @@ footer {
   float: center;
   background-color: lightgray;
   border-top: 1px solid gray;
-  /*padding-left: 1%;*/
+  padding-left: 1%;
   padding-bottom: 1%;
-}
-
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
 }
 
 /* align-items: center;

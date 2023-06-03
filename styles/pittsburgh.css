@@ -10,10 +10,6 @@ header {
   padding-bottom: 1%;
 }
 
-body {
-   background-color: red;
-}
-
 nav {
   color: blue;
   text-align: center;
@@ -27,16 +23,16 @@ h2 {
   text-align: center;
 }
 
-h3 {
-  color: red;
-  text-align: center;
-}
-
 #wrapper {
     width: 100%;
     height: auto;
     margin-left: auto;
     margin-right: auto;
+}
+
+h3 {
+  color: green;
+  text-align: center;
 }
 
 section {
@@ -62,62 +58,9 @@ footer {
   width: 50%;
 }
 
-#intro {
-  text-align: center;
-  border: 1px solid black;
-  padding: 10px;
-  margin: 2px;
+#van {
+  width: 30%;
 }
-
-#watson {
-  border: 1px solid black;
-  padding: 10px;
-  margin: 2px;
-}
-
-#lestrade {
-  border: 1px solid black;
-  padding: 10px;
-  margin: 2px;
-}
-
-#moriarty {
-  border: 1px solid black;
-  padding: 10px;
-  margin: 2px;
-}
-
-#irene_adler {
-  border: 1px solid black;
-  padding: 10px;
-  margin: 2px;
-}
-
-#actors {
-  border: 1px solid black;
-  padding: 10px;
-  margin: 2px;
-}
-
-#books {
-  border: 1px solid black;
-  padding: 10px;
-  margin: 2px;
-}
-
-#drugs {
-  border: 1px solid black;
-  padding: 10px;
-  margin: 2px;
-}
-
-#author {
-  text-align: center;
-  border: 1px solid black;
-  padding: 10px;
-  margin: 2px;
-}
-
 
 /* align-items: center;
    text-align: center;
